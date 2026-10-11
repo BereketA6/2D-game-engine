@@ -1,0 +1,533 @@
+{
+  "format": "ember-level",
+  "version": 1,
+  "next_id": 24,
+  "entities": [
+    {
+      "id": 1,
+      "name": "Cloud",
+      "transform": {
+        "x": 120.0,
+        "y": 90.0,
+        "w": 120.0,
+        "h": 48.0
+      },
+      "sprite": {
+        "shape": "Cloud",
+        "color": [
+          255,
+          255,
+          255,
+          200
+        ],
+        "layer": -5
+      }
+    },
+    {
+      "id": 2,
+      "name": "Cloud",
+      "transform": {
+        "x": 620.0,
+        "y": 60.0,
+        "w": 150.0,
+        "h": 56.0
+      },
+      "sprite": {
+        "shape": "Cloud",
+        "color": [
+          255,
+          255,
+          255,
+          200
+        ],
+        "layer": -5
+      }
+    },
+    {
+      "id": 3,
+      "name": "Cloud",
+      "transform": {
+        "x": 1180.0,
+        "y": 110.0,
+        "w": 120.0,
+        "h": 48.0
+      },
+      "sprite": {
+        "shape": "Cloud",
+        "color": [
+          255,
+          255,
+          255,
+          200
+        ],
+        "layer": -5
+      }
+    },
+    {
+      "id": 4,
+      "name": "Cloud",
+      "transform": {
+        "x": 1760.0,
+        "y": 70.0,
+        "w": 140.0,
+        "h": 52.0
+      },
+      "sprite": {
+        "shape": "Cloud",
+        "color": [
+          255,
+          255,
+          255,
+          200
+        ],
+        "layer": -5
+      }
+    },
+    {
+      "id": 5,
+      "name": "Ground A",
+      "transform": {
+        "x": 0.0,
+        "y": 520.0,
+        "w": 640.0,
+        "h": 80.0
+      },
+      "sprite": {
+        "shape": "Box",
+        "color": [
+          86,
+          140,
+          74,
+          255
+        ],
+        "layer": 0
+      },
+      "collider": {
+        "solid": true
+      }
+    },
+    {
+      "id": 6,
+      "name": "Ground B",
+      "transform": {
+        "x": 760.0,
+        "y": 520.0,
+        "w": 640.0,
+        "h": 80.0
+      },
+      "sprite": {
+        "shape": "Box",
+        "color": [
+          86,
+          140,
+          74,
+          255
+        ],
+        "layer": 0
+      },
+      "collider": {
+        "solid": true
+      }
+    },
+    {
+      "id": 7,
+      "name": "Ground C",
+      "transform": {
+        "x": 1520.0,
+        "y": 520.0,
+        "w": 800.0,
+        "h": 80.0
+      },
+      "sprite": {
+        "shape": "Box",
+        "color": [
+          86,
+          140,
+          74,
+          255
+        ],
+        "layer": 0
+      },
+      "collider": {
+        "solid": true
+      }
+    },
+    {
+      "id": 8,
+      "name": "Ledge",
+      "transform": {
+        "x": 880.0,
+        "y": 410.0,
+        "w": 160.0,
+        "h": 24.0
+      },
+      "sprite": {
+        "shape": "Box",
+        "color": [
+          86,
+          140,
+          74,
+          255
+        ],
+        "layer": 0
+      },
+      "collider": {
+        "solid": true
+      }
+    },
+    {
+      "id": 9,
+      "name": "Step",
+      "transform": {
+        "x": 1700.0,
+        "y": 460.0,
+        "w": 120.0,
+        "h": 60.0
+      },
+      "sprite": {
+        "shape": "Box",
+        "color": [
+          86,
+          140,
+          74,
+          255
+        ],
+        "layer": 0
+      },
+      "collider": {
+        "solid": true
+      }
+    },
+    {
+      "id": 10,
+      "name": "Player",
+      "transform": {
+        "x": 64.0,
+        "y": 470.0,
+        "w": 28.0,
+        "h": 40.0
+      },
+      "sprite": {
+        "shape": "Hero",
+        "color": [
+          255,
+          138,
+          61,
+          255
+        ],
+        "layer": 5
+      },
+      "body": {
+        "gravity_scale": 1.0
+      },
+      "player": {
+        "move_speed": 230.0,
+        "jump_speed": 560.0,
+        "coyote_time": 0.10000000149011612
+      }
+    },
+    {
+      "id": 11,
+      "name": "Coin",
+      "transform": {
+        "x": 260.0,
+        "y": 470.0,
+        "w": 20.0,
+        "h": 20.0
+      },
+      "sprite": {
+        "shape": "Circle",
+        "color": [
+          247,
+          201,
+          72,
+          255
+        ],
+        "layer": 3
+      },
+      "pickup": {
+        "value": 1
+      }
+    },
+    {
+      "id": 12,
+      "name": "Coin",
+      "transform": {
+        "x": 320.0,
+        "y": 470.0,
+        "w": 20.0,
+        "h": 20.0
+      },
+      "sprite": {
+        "shape": "Circle",
+        "color": [
+          247,
+          201,
+          72,
+          255
+        ],
+        "layer": 3
+      },
+      "pickup": {
+        "value": 1
+      }
+    },
+    {
+      "id": 13,
+      "name": "Coin",
+      "transform": {
+        "x": 380.0,
+        "y": 470.0,
+        "w": 20.0,
+        "h": 20.0
+      },
+      "sprite": {
+        "shape": "Circle",
+        "color": [
+          247,
+          201,
+          72,
+          255
+        ],
+        "layer": 3
+      },
+      "pickup": {
+        "value": 1
+      }
+    },
+    {
+      "id": 14,
+      "name": "Gap Coin",
+      "transform": {
+        "x": 690.0,
+        "y": 420.0,
+        "w": 20.0,
+        "h": 20.0
+      },
+      "sprite": {
+        "shape": "Circle",
+        "color": [
+          247,
+          201,
+          72,
+          255
+        ],
+        "layer": 3
+      },
+      "pickup": {
+        "value": 1
+      }
+    },
+    {
+      "id": 15,
+      "name": "Coin",
+      "transform": {
+        "x": 920.0,
+        "y": 370.0,
+        "w": 20.0,
+        "h": 20.0
+      },
+      "sprite": {
+        "shape": "Circle",
+        "color": [
+          247,
+          201,
+          72,
+          255
+        ],
+        "layer": 3
+      },
+      "pickup": {
+        "value": 1
+      }
+    },
+    {
+      "id": 16,
+      "name": "Coin",
+      "transform": {
+        "x": 980.0,
+        "y": 370.0,
+        "w": 20.0,
+        "h": 20.0
+      },
+      "sprite": {
+        "shape": "Circle",
+        "color": [
+          247,
+          201,
+          72,
+          255
+        ],
+        "layer": 3
+      },
+      "pickup": {
+        "value": 1
+      }
+    },
+    {
+      "id": 17,
+      "name": "Coin",
+      "transform": {
+        "x": 1750.0,
+        "y": 410.0,
+        "w": 20.0,
+        "h": 20.0
+      },
+      "sprite": {
+        "shape": "Circle",
+        "color": [
+          247,
+          201,
+          72,
+          255
+        ],
+        "layer": 3
+      },
+      "pickup": {
+        "value": 1
+      }
+    },
+    {
+      "id": 18,
+      "name": "Spike Coin",
+      "transform": {
+        "x": 2010.0,
+        "y": 430.0,
+        "w": 20.0,
+        "h": 20.0
+      },
+      "sprite": {
+        "shape": "Circle",
+        "color": [
+          247,
+          201,
+          72,
+          255
+        ],
+        "layer": 3
+      },
+      "pickup": {
+        "value": 1
+      }
+    },
+    {
+      "id": 19,
+      "name": "Enemy",
+      "transform": {
+        "x": 1150.0,
+        "y": 492.0,
+        "w": 34.0,
+        "h": 28.0
+      },
+      "sprite": {
+        "shape": "Blob",
+        "color": [
+          201,
+          79,
+          109,
+          255
+        ],
+        "layer": 4
+      },
+      "patrol": {
+        "min_x": 1080.0,
+        "max_x": 1340.0,
+        "speed": 70.0
+      },
+      "hazard": {}
+    },
+    {
+      "id": 20,
+      "name": "Spikes",
+      "transform": {
+        "x": 1990.0,
+        "y": 500.0,
+        "w": 64.0,
+        "h": 20.0
+      },
+      "sprite": {
+        "shape": "Spikes",
+        "color": [
+          184,
+          192,
+          204,
+          255
+        ],
+        "layer": 2
+      },
+      "hazard": {}
+    },
+    {
+      "id": 21,
+      "name": "Moving Platform",
+      "transform": {
+        "x": 1540.0,
+        "y": 380.0,
+        "w": 128.0,
+        "h": 20.0
+      },
+      "sprite": {
+        "shape": "Box",
+        "color": [
+          150,
+          108,
+          72,
+          255
+        ],
+        "layer": 1
+      },
+      "collider": {
+        "solid": true
+      },
+      "patrol": {
+        "min_x": 1540.0,
+        "max_x": 1640.0,
+        "speed": 50.0
+      }
+    },
+    {
+      "id": 22,
+      "name": "Bonus Coin",
+      "transform": {
+        "x": 1600.0,
+        "y": 330.0,
+        "w": 20.0,
+        "h": 20.0
+      },
+      "sprite": {
+        "shape": "Circle",
+        "color": [
+          247,
+          201,
+          72,
+          255
+        ],
+        "layer": 3
+      },
+      "pickup": {
+        "value": 1
+      }
+    },
+    {
+      "id": 23,
+      "name": "Goal Flag",
+      "transform": {
+        "x": 2220.0,
+        "y": 424.0,
+        "w": 32.0,
+        "h": 96.0
+      },
+      "sprite": {
+        "shape": "Flag",
+        "color": [
+          76,
+          195,
+          138,
+          255
+        ],
+        "layer": 2
+      },
+      "goal": {}
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+build*/
+ember_layout.ini
+screenshot*.png
+levels/untitled.json
+.DS_Store
+compile_commands.json
